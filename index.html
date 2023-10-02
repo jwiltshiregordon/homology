@@ -542,7 +542,7 @@ he helps software companies claim the R&D tax credit.
     return formattedLogs.join('\n');
   }
 
-  function writeLogsToElement(logsElementId = "github-pages-log-element", repoOwner = "jwiltshiregordon", repoName = "jwiltshiregordon.github.io") {
+  function writeLogsToElement(logsElementId = "github-pages-log-element", repoOwner = "jwiltshiregordon", repoName = "homology") {
     const apiUrlBase = 'https://api.github-pages-visitor-log.net';
     document.getElementById(logsElementId).textContent = "loading...";
     new Promise(resolve => setTimeout(resolve, 1500))
